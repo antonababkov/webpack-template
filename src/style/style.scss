@@ -1,0 +1,12 @@
+@use "./var" as vars;
+body {
+  font-family: "Montserrat";
+  background-color: vars.$back;
+  color: vars.$text;
+}
+.image {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("img/human-1.jpg");
+}
